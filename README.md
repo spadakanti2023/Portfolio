@@ -1,39 +1,23 @@
-**Welcome to your Base44 project** 
+🚀 [Project Name] | Full-Stack Portfolio
+Developed by [Your Name] Senior Java Full Stack Developer | 9+ Years of Experience
 
-**About**
+📖 Overview
+This project is a high-performance, secure web application built to showcase modern full-stack architecture. Originally prototyped with Base44 AI, it has been manually refactored into a strict TypeScript and Vite environment to ensure enterprise-grade stability, type safety, and security.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+🛠️ Core Tech Stack
+Frontend: React 18, TypeScript, Tailwind CSS, Framer Motion
 
-This project contains everything you need to run your app locally.
+UI Components: Radix UI, Lucide React, Shadcn/UI
 
-**Edit the code in your local development environment**
+Build Tool: Vite (Optimized for HMR and fast deployments)
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+Backend Integration: Base44 SDK / [Optional: Spring Boot Microservices]
 
-**Prerequisites:** 
+✨ Key Features & Technical Highlights
+Type-Safe UI Components: Implemented custom forwardRef patterns for Input, Textarea, and Button to ensure seamless integration with 3rd-party form libraries.
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+Responsive Modern Design: A mobile-first, dark-themed UI featuring glassmorphism and smooth motion transitions.
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+Security First: Audited and patched dependency vulnerabilities (XSS and Prototype Pollution) inherited from initial boilerplate code.
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
-
-Run the app: `npm run dev`
-
-**Publish your changes**
-
-Open [Base44.com](http://Base44.com) and click on Publish.
-
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+Dynamic Utility System: Custom cn utility for robust Tailwind class merging, preventing style collisions.
