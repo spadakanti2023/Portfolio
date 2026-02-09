@@ -1,46 +1,39 @@
-🚀 [Project Name] | Full-Stack Portfolio
-Developed by [Your Name] Senior Java Full Stack Developer | 9+ Years of Experience
+**Welcome to your Base44 project** 
 
-📖 Overview
-This project is a high-performance, secure web application built to showcase modern full-stack architecture. Originally prototyped with Base44 AI, it has been manually refactored into a strict TypeScript and Vite environment to ensure enterprise-grade stability, type safety, and security.
+**About**
 
-🛠️ Core Tech Stack
-Frontend: React 18, TypeScript, Tailwind CSS, Framer Motion
+View and Edit  your app on [Base44.com](http://Base44.com) 
 
-UI Components: Radix UI, Lucide React, Shadcn/UI
+This project contains everything you need to run your app locally.
 
-Build Tool: Vite (Optimized for HMR and fast deployments)
+**Edit the code in your local development environment**
 
-Backend Integration: Base44 SDK / [Optional: Spring Boot Microservices]
+Any change pushed to the repo will also be reflected in the Base44 Builder.
 
-✨ Key Features & Technical Highlights
-Type-Safe UI Components: Implemented custom forwardRef patterns for Input, Textarea, and Button to ensure seamless integration with 3rd-party form libraries.
+**Prerequisites:** 
 
-Responsive Modern Design: A mobile-first, dark-themed UI featuring glassmorphism and smooth motion transitions.
+1. Clone the repository using the project's Git URL 
+2. Navigate to the project directory
+3. Install dependencies: `npm install`
+4. Create an `.env.local` file and set the right environment variables
 
-Security First: Audited and patched dependency vulnerabilities (XSS and Prototype Pollution) inherited from initial boilerplate code.
-
-Dynamic Utility System: Custom cn utility for robust Tailwind class merging, preventing style collisions.
-
-⚙️ Local Development Setup
-1. Prerequisites
-Node.js (v18.0.0 or higher)
-
-npm or yarn
-
-2. Installation
-Bash
-# Clone the repository
-git clone [Your-Repo-URL]
-
-# Install dependencies
-npm install
-3. Environment Configuration
-Create a .env.local file in the root directory and add your Base44 credentials:
-
-Code snippet
+```
 VITE_BASE44_APP_ID=your_app_id
 VITE_BASE44_APP_BASE_URL=your_backend_url
-4. Run the Application
-Bash
-npm run dev
+
+e.g.
+VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
+VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+```
+
+Run the app: `npm run dev`
+
+**Publish your changes**
+
+Open [Base44.com](http://Base44.com) and click on Publish.
+
+**Docs & Support**
+
+Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+
+Support: [https://app.base44.com/support](https://app.base44.com/support)
